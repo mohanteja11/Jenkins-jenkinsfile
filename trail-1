@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+    stages {
+        stage("Stage 1"){
+            steps {
+                echo "Take me to church"
+            }
+        }
+        stage("Stage 2"){
+            steps {
+                echo "Stage 1"
+            }
+        }
+        stage("Stage 3"){
+            steps {
+                echo "This is stage Jenkins pipeline"
+            }
+        }
+        stage("Stage 4"){
+            steps {
+                echo "Peice of shit"
+            }
+        }
+        stage("Stage 5"){
+            steps {
+                echo "it works"
+            }
+        }
+    }
+}
