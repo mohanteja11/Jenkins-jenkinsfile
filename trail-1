@@ -28,7 +28,7 @@ pipeline {
         }
         stage("Stage 5"){
             steps {
-                echo "it works"
+                echo "new pol scm trail"
             }
         }
     }
