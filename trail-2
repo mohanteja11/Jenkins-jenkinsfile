@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    stages {
+        stage("stage1"){
+            steps {
+                echo "take me"
+            }
+        }
+        stage("stage 2"){
+            steps {
+                echo "fuck you"
+            }
+        }
+        stage("stage 3"){
+            steps {
+                echo "fuck you"
+                }
+            }
+        }
+        stage("stage 4"){
+            steps {
+                echo"leave me alone"
+                }
+            }
+        }
+     }
